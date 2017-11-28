@@ -26,11 +26,11 @@ Array helper for filtering against multiple keys in an array of objects
 
 ## Instalation
 ```
-yarn add @iplatformglobal/array-multi-sort or
+yarn add @iplatformglobal/array-multi-filter or
 
 or
 
-npm install @iplatformglobal/array-multi-sort
+npm install @iplatformglobal/array-multi-filter
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ const arr = [{
   name: 'rest',
 }];
 
-// Keys and Values needing to be filtered agains
+// Keys and Values needing to be filtered against
 const query = { distance: 100, name: 'test' };
 
 arr.filter(arrayMultiFilter, query);
@@ -68,12 +68,12 @@ All contributions are welcome, and can be done by cloning the repo and running `
 
 Ensure there are no errors in the tests or linter and ensure your commit messages comply to the following format:
 
-* break: COMMIT_MSG - Changing the code in a way that changes the other users would need to impiment it.
+* break: COMMIT_MSG - Changing the code in a way that changes the other users would need to implement it.
 * feat: COMMIT_MSG - adding a new feature or capability to the helper.
 * fix: COMMIT_MSG - any bugs or minor updates that fixes the existing code without adding or removing any capabilities.
 * none: COMMIT_MSG - used for simple updates like documentation, aka NO code has changed.
 
-There are git hooks configured to ensure commit message format as well as test and linter complience
+There are git hooks configured to ensure commit message format as well as test and linter compliance
 
 
 <!-- HISTORY/ -->
