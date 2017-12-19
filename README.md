@@ -24,7 +24,7 @@ Array helper for filtering against multiple keys in an array of objects
 <!-- /BADGES -->
 
 
-## Instalation
+## Installation
 ```
 yarn add @iplatformglobal/array-multi-filter or
 
